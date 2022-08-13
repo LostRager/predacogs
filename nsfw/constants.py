@@ -217,7 +217,7 @@ GAY_P = [
     "MaleUnderwear",
 ]
 GROUPS = ["GroupOfNudeGirls", "groupsex"]
-JAV = [
+JAVPORN = [
     "JAVUncensored",
     "jav_gifs",
     "Jav_Nsfw",
