@@ -437,8 +437,26 @@ class Nsfw(Core):
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
+    @commands.command(aliases=["yaoi"])
+    async def yaoi(self, ctx: commands.Context):
+        """Sends some yaoi images from random subreddits."""
+
+        await self._send_msg(ctx, _("yuri"), sub.YAOI)
+
+    @commands.is_nsfw()
+    @commands.bot_has_permissions(embed_links=True)
+    @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["yiffs"])
     async def yiff(self, ctx: commands.Context):
         """Sends some yiff images from random subreddits."""
 
         await self._send_msg(ctx, _("yiff"), sub.YIFF)
+        
+    @commands.is_nsfw()
+    @commands.bot_has_permissions(embed_links=True)
+    @commands.cooldown(1, 0.5, commands.BucketType.user)
+    @commands.command(aliases=["yuri"])
+    async def yuri(self, ctx: commands.Context):
+        """Sends some yuri images from random subreddits."""
+
+        await self._send_msg(ctx, _("yuri"), sub.YURI)
