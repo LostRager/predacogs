@@ -305,7 +305,7 @@ class Nsfw(Core):
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
-    @commands.command(aliases=["jav"])
+    @commands.command(aliases=["javporn"])
     async def jav(self, ctx: commands.Context):
         """Sends some jav gifs or images from random subreddits."""
 
