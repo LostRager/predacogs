@@ -222,6 +222,12 @@ JAVPORN = [
     "jav_gifs",
     "Jav_Nsfw",
     "PetiteJAV",
+    "javdreams",
+    "JAVGifs",
+    "JapanesePorn2",
+    "jav",
+    "Asianpornin15seconds",
+    "NSFW_Japan",
 ]
 LESBIANS = [
     "HDLesbianGifs",
