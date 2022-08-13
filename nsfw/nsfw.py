@@ -437,7 +437,7 @@ class Nsfw(Core):
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
-    @commands.command(aliases=["yaoi"])
+    @commands.command(aliases=["yaoigif"])
     async def yaoi(self, ctx: commands.Context):
         """Sends some yaoi images from random subreddits."""
 
