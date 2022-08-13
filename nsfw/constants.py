@@ -217,6 +217,12 @@ GAY_P = [
     "MaleUnderwear",
 ]
 GROUPS = ["GroupOfNudeGirls", "groupsex"]
+JAV = [
+    "JAVUncensored",
+    "jav_gifs",
+    "Jav_Nsfw",
+    "PetiteJAV",
+]
 LESBIANS = [
     "HDLesbianGifs",
     "Lesbian_gifs",
