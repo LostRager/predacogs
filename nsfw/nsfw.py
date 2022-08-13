@@ -301,6 +301,15 @@ class Nsfw(Core):
         """Sends some lesbian gifs or images from random subreddits."""
 
         await self._send_msg(ctx, _("lesbian"), sub.LESBIANS)
+    
+    @commands.is_nsfw()
+    @commands.bot_has_permissions(embed_links=True)
+    @commands.cooldown(1, 0.5, commands.BucketType.user)
+    @commands.command(aliases=["jav"])
+    async def jav(self, ctx: commands.Context):
+        """Sends some jav gifs or images from random subreddits."""
+
+        await self._send_msg(ctx, _("jav"), sub.JAV)
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
