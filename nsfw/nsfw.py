@@ -455,7 +455,7 @@ class Nsfw(Core):
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
     @commands.cooldown(1, 0.5, commands.BucketType.user)
-    @commands.command(aliases=["yuri"])
+    @commands.command(aliases=["yurigif"])
     async def yuri(self, ctx: commands.Context):
         """Sends some yuri images from random subreddits."""
 
