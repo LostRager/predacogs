@@ -170,6 +170,7 @@ DICK = [
     "cock",
     "penis",
     "twinks",
+    "PublicBoys",
 ]
 DOUBLE_P = ["Technical_DP", "doublepenetration"]
 EBONY = [
@@ -215,6 +216,7 @@ GAY_P = [
     "manass",
     "manlove",
     "MaleUnderwear",
+    "PublicBoys",
 ]
 GROUPS = ["GroupOfNudeGirls", "groupsex"]
 JAVPORN = [
@@ -392,7 +394,22 @@ WILD = [
     "librarygirls",
     "workgonewild",
 ]
+YAOI = [
+    "yaoigif",
+    "YaoiNSFW",
+    "yaoi",
+    "FemboyHentai",
+    "NakedAnimeDudes",
+    "Artistic_YAOI",
+    "BunnyBoisNSFW",
+]
 YIFF = ["Hyiff", "Yiffbondage", "femyiff", "yiff", "yiffgif"]
+YURI = [
+    "yurigif",
+    "yuri",
+    "femtai_gif",
+    "YuriHentai",
+]
 
 # Other APIs
 NEKOBOT_HENTAI = choice(["hentai_anal", "hentai"])
