@@ -448,7 +448,7 @@ class Nsfw(Core):
     @commands.cooldown(1, 0.5, commands.BucketType.user)
     @commands.command(aliases=["yaoigif2"])
     async def yaoi2(self, ctx: commands.Context):
-        """Sends some yaoi images from random subreddits."""
+        """Sends some yaoi images/gifs from Nekobot API."""
 
         await self._send_msg(ctx, _("yaoi"), sub.YAOI2)
 
