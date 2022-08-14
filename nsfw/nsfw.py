@@ -449,8 +449,14 @@ class Nsfw(Core):
     @commands.command(aliases=["yaoigif2"])
     async def yaoi2(self, ctx: commands.Context):
         """Sends some yaoi images/gifs from Nekobot API."""
-
-        await self._send_msg(ctx, _("yaoi"), sub.YAOI2)
+        
+        await self._send_other_msg(
+            ctx,
+            name=_("yaoi"),
+            arg="message",
+            source="Nekobot API",
+            url=sub.NEKOBOT_URL.format(sub.NEKOBOT_YAOI),
+        )
 
     @commands.is_nsfw()
     @commands.bot_has_permissions(embed_links=True)
