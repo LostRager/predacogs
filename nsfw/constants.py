@@ -413,4 +413,5 @@ YURI = [
 
 # Other APIs
 NEKOBOT_HENTAI = choice(["hentai_anal", "hentai", "yaoi"])
+NEKOBOT_YAOI = choice(["yaoi",])
 NEKOBOT_URL = "https://nekobot.xyz/api/image?type={}"
